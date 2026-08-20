@@ -68,7 +68,7 @@ void UKOTutorialSubsystem::UnloadAll(UObject* WorldContext)
 		StreamData.Value->ReleaseHandle();
 		StreamData.Value.Reset();
 	}
-	StreamableHandles.Empty(StreamableHandles.Num());
+	StreamableHandles.Reset();
 }
 
 void UKOTutorialSubsystem::SetTutorial(UObject* WorldContext, FName TutorialName)
