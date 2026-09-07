@@ -77,7 +77,7 @@ protected:
 	
 	// 공격 가능한 원거리 토큰 수
 	UPROPERTY(EditAnywhere, Category="Combat") 
-	int32 MaxLongRangeTokenNum = 2;
+	int32 MaxLongRangeTokenNum = 1;
 	
 	// 에너미를 평가하는 인터벌
 	UPROPERTY(EditAnywhere, Category="Combat") 
